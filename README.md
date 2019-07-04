@@ -1,6 +1,6 @@
-[![npm version](https://badge.fury.io/js/urldecode-latin1.svg)](http://badge.fury.io/js/sql-dao)
+[![npm version](https://badge.fury.io/js/urldecode-latin1.svg)](http://badge.fury.io/js/urldecode-latin1)
 [![Dependencies](https://david-dm.org/loge5/node-urldecode-latin1.svg)](https://david-dm.org/loge5/node-urldecode-latin1) 
-[![devDependency Status](https://david-dm.org/loge5/urldecode-latin1/dev-status.svg)](https://david-dm.org/loge5/node-urldecode-latin1#info=devDependencies)
+[![devDependencies Status](https://david-dm.org/loge5/node-urldecode-latin1/dev-status.svg)](https://david-dm.org/loge5/node-urldecode-latin1?type=dev)
 
 # urldecode for latin1 / ISO-8859-1
 
