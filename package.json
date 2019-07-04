@@ -1,0 +1,25 @@
+{
+  "name": "urldecode-latin1",
+  "version": "0.1.0",
+  "description": "urldecode for latin1 / ISO-8859-1",
+  "main": "urldecode-latin1.js",
+  "scripts": {
+    "test": "node test.js",
+    "cover": "node node_modules/nyc/bin/nyc.js --reporter=html npm test"
+  },
+  "keywords": [
+    "urldecode",
+    "urlencode",
+    "percent-encoding",
+    "latin1",
+    "ISO-8859-1"
+  ],
+  "author": "Rolf Loges",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.1.4",
+    "nyc": "^14.1.1",
+    "standard": "^12.0.1"
+  }
+}
