@@ -12,8 +12,8 @@ describe('urldecodeLatin1', () => {
     expect(urldecodeLatin1(b).k).equals('ß')
   })
   it('decode from string should resolve', () => {
-    let s = 'k=%61%AE%DF%FF'
-    expect(urldecodeLatin1(s).k).equals('a®ßÿ')
+    let s = 'k=%61%0A%AE%DF%FF'
+    expect(urldecodeLatin1(s).k).equals('a\n®ßÿ')
   })
   it('decode from incomplete string should throw error', () => {
     let s = 'k=%61%AE%D'

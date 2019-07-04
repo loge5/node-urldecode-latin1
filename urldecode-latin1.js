@@ -22,7 +22,7 @@ function urldecodeLatin1 (input) {
         charCode -= pageSize * pageNr
         output += '%' + (prefixOffset + pageNr).toString(16).toUpperCase() // page prefix
       }
-      output += '%' + charCode.toString(16).toUpperCase()
+      output += '%' + (charCode < 16 ? '0' : '') + charCode.toString(16).toUpperCase()
       i += 2
     } else {
       output += input[i]
