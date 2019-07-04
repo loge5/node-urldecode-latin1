@@ -8,7 +8,7 @@
 
 The standard methods "decodeURI" or "querystring" can't decode latin1 chars like `%DF` (ß), this decoder can.
 
-How it works: replace latin1 encodings with its utf-8 couonterpart, than use `querystring` (node.js).
+How it works: replace latin1 encodings with its utf-8 counterpart, than use `querystring` (node.js).
 
 # Features
 
