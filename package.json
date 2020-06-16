@@ -22,8 +22,8 @@
   "license": "MIT",
   "devDependencies": {
     "chai": "^4.2.0",
-    "mocha": "^6.1.4",
-    "nyc": "^14.1.1",
-    "standard": "^12.0.1"
+    "mocha": "^8.0.1",
+    "nyc": "^15.1.0",
+    "standard": "^14.3.4"
   }
 }
