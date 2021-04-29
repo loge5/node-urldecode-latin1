@@ -8,11 +8,11 @@ describe('urldecodeLatin1', () => {
     expect(urldecodeLatin1).to.be.a('Function')
   })
   it('decode from Buffer should resolve', () => {
-    let b = Buffer.from([0x6B, 0x3D, 0xDF])
+    const b = Buffer.from([0x6B, 0x3D, 0xDF])
     expect(urldecodeLatin1(b).k).equals('ß')
   })
   it('decode from string should resolve', () => {
-    let s = 'k=%61%0A%AE%DF%FF'
+    const s = 'k=%61%0A%AE%DF%FF'
     expect(urldecodeLatin1(s).k).equals('a\n®ßÿ')
   })
   it('decode from incomplete string should throw error', () => {
