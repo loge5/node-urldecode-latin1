@@ -5,7 +5,8 @@
   "main": "urldecode-latin1.js",
   "scripts": {
     "test": "jest",
-    "cover": "jest --coverage"
+    "cover": "jest --coverage",
+    "format": "standard --fix"
   },
   "repository": {
     "type": "git",
@@ -20,8 +21,11 @@
   ],
   "author": "Rolf Loges",
   "license": "MIT",
+  "standard": {
+    "env": ["jest"]
+  },
   "devDependencies": {
-    "jest": "^29.0.0",
-    "standard": "^17.0.0"
+    "jest": "^30.3.0",
+    "standard": "^17.1.2"
   }
 }
